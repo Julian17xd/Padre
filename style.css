@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #040d21;
+    font-family: 'Noto Serif', serif;
+    text-align: center;
+}
+
+.card1{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: 2rem auto;
+}
+
+h1{
+    margin-top: 2rem;
+    background: -webkit-linear-gradient(-70deg, #a2facf 0%, #64acff 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+img{
+    width:100%;
+}
+
+p{
+    width: 75%;
+    margin: 0 auto;
+    color: white;
+}
+
+.boda{
+    margin-top: 2rem;
+    color: #0969da;
+}
+
+h3{
+    margin-top: 2rem;
+    color: white;
+}
+
+.h2{
+    font-size: 1.2rem;
+    color: white;
+}
+.card2{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+    row-gap: 2rem;
+}
+
+.texto{
+    width: 75%;
+    margin: auto;
+}
+
+.text{
+    margin-bottom: 2rem;
+    background: -webkit-linear-gradient(-70deg, #a2facf 0%, #64acff 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
